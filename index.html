@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <link rel="icon" href="dist/logo.ico">
+    <title>Mind Map Tool</title>
+    <script>
+        // 自定义静态资源的路径
+        window.externalPublicPath = './dist/'
+        // 接管应用
+        window.takeOverApp = false
+    </script>
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>
+        try {
+            LA.init({
+                id: 'KRO0WxK8GT66tYCQ',
+                ck: 'KRO0WxK8GT66tYCQ',
+                autoTrack: false
+            })
+        } catch (error) {
+            console.log(error)
+        }
+    </script>
+    <link href="dist/css/chunk-vendors.css?fc8e52cca177f49cac0d" rel="stylesheet">
+    <link href="dist/css/app.css?fc8e52cca177f49cac0d" rel="stylesheet">
+</head>
+
+<body><noscript><strong>We're sorry but thoughts doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div id="app"></div>
+    <script>
+        const getDataFromBackend = () => {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve({
+                        mindMapData: {
+                            root: {
+                                data: {
+                                    text: '根节点'
+                                },
+                                children: []
+                            },
+                            theme: {
+                                template: 'avocado',
+                                config: {}
+                            },
+                            layout: 'logicalStructure',
+                            config: {},
+                            view: null
+                        },
+                        lang: 'zh',
+                        localConfig: null
+                    })
+                }, 200)
+            })
+        }
+        const setTakeOverAppMethods = data => {
+            window.takeOverAppMethods = {}
+            // 获取思维导图数据的函数
+            window.takeOverAppMethods.getMindMapData = () => {
+                return data.mindMapData
+            }
+            // 保存思维导图数据的函数
+            window.takeOverAppMethods.saveMindMapData = data => {
+                console.log(data)
+            }
+            // 获取语言的函数
+            window.takeOverAppMethods.getLanguage = () => {
+                return data.lang
+            }
+            // 保存语言的函数
+            window.takeOverAppMethods.saveLanguage = lang => {
+                console.log(lang)
+            }
+            // 获取本地配置的函数
+            window.takeOverAppMethods.getLocalConfig = () => {
+                return data.localConfig
+            }
+            // 保存本地配置的函数
+            window.takeOverAppMethods.saveLocalConfig = config => {
+                console.log(config)
+            }
+        }
+        window.onload = async () => {
+            if (!window.takeOverApp) return
+            // 请求数据
+            const data = await getDataFromBackend()
+            // 设置全局的方法
+            setTakeOverAppMethods(data)
+            // 思维导图实例创建完成事件
+            window.$bus.$on('app_inited', mindMap => {
+                console.log(mindMap)
+            })
+            // 可以通过window.$bus.$on()来监听应用的一些事件
+            // 实例化页面
+            window.initApp()
+        }
+    </script>
+    <script src="dist/js/chunk-vendors.js?fc8e52cca177f49cac0d"></script>
+    <script src="dist/js/app.js?fc8e52cca177f49cac0d"></script>
+	
+	 <span class="mbml1"> Dover Corporation © | Support <a href="mailto:dsudalaimani@dovercorp.com" class="mbml" target="_blank" title="Support">Diwakaran S</a></span>
+	  <style>
+	  .mbml1 {
+    position: fixed !important;
+    box-sizing: border-box !important;
+    left: -13px !important;
+    bottom: 0px !important;
+    width: 250px !important;
+    height: 20px !important;
+    display: block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-size: 10px !important;
+    font-family: sans-serif !important;
+    color: #939292 !important;
+    text-decoration: none;
+}.curRainbowLine.el-popover__reference,span.colorItem {
+    border-radius: 8px !important;
+} {
+    border-radius: 8px !important;
+}.optionItem {
+    font-family: sans-serif!important;
+}.el-dialog {
+    border-radius: 8px!important;
+}span.closeBtn,i.el-dialog__close.el-icon.el-icon-close,i.el-dialog__close.el-icon.el-icon-close {
+    border-radius: 8px;
+    background: red;
+    color: #ffff;
+    padding: 1px;
+    box-shadow: 1px 1px #f1f1f1;
+}.sidebarHeader {
+    border-radius: 8px;
+}.sidebarContainer.show {
+    border-radius: 8px;
+}
+	  .toolbarBtn,sidebarHeader,.triggerItem,span.icon,.item {
+
+    
+    font-weight: bold!important;
+}a.mbml{
+
+text-decoration:none;
+}
+
+.toolbarBtn:hover,sidebarHeader:hover,.triggerItem:hover,span.icon:hover,.item:hover,a.mbml{
+-webkit-animation-name: joinlikan!important;
+    -webkit-animation-duration: 2s!important;
+    -webkit-animation-iteration-count: infinite!important;
+}
+@-webkit-keyframes joinlikan {from,0% {color:#4285F4;}25% {color:#DB4437;}50% {color:#F4B400;}75% {color:#0F9D58; }100%, to {color:#0F9D58;}}
+img {
+    border-radius: 8px!important;
+    padding: 3px 4px!important;
+}
+.sidebarHeader,.el-dialog__header,.tip,.el-notification__title,.optionItem,.sidebarHeader  {
+    color: red;
+	font-weight: bold;
+	-webkit-animation-name: joinlikan!important;
+    -webkit-animation-duration: 2s!important;
+    -webkit-animation-iteration-count: infinite!important;
+}.el-dialog {
+    width: 80%!important;
+}li.el-select-dropdown__item,li.el-dropdown-menu__item {
+    font-family: sans-serif!important;
+}.el-select.el-select--small {
+    display: none !important;
+}.navigatorContainer[data-v-50ed186d] {
+    padding: 0 12px;
+    position: fixed;
+    left: 25%;
+    bottom: 20px;
+    background: hsla(0, 0%, 100%, .8);
+    border-radius: 5px;
+    opacity: .8;
+    height: 44px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;width: 48% !important;
+}
+.el-tooltip__popper,span.text{
+font-family: sans-serif!important;
+}
+span.name,.name {
+   
+    font-family: sans-serif;
+    font-weight: bold;
+	cursor: pointer!important;
+}.triggerName {
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    text-wrap: auto;
+    text-align: center;
+}.sidebarTriggerContainer .trigger[data-v-5ac1b955] {
+    position: relative;
+    width: 80px!important;
+    border-color: #eee;
+    background-color: #fff;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, .06);
+    border-radius: 6px;
+    overflow: hidden;
+    bottom: 30px!important;
+}.title,span.el-dialog__title {
+    color: black !important;
+	font-family: sans-serif !important;
+    background: #f1f1f1;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold !important;
+    text-align: center;
+    box-shadow: 1px 1px #f1f1f1;
+    text-decoration: none !important;
+}input.el-input__inner {
+    display: inline-block !important;
+	font-weight:bold;
+}.themeItem {
+    border-radius: 8px;
+}
+	  </style>
+	
+</body>
+
+</html>
