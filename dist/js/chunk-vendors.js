@@ -265,7 +265,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 133)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 133)
 			}({
 				133: function(e, t, n) {
 					"use strict";
@@ -742,7 +742,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 138)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 138)
 			}({
 				138: function(e, t, n) {
 					"use strict";
@@ -6061,7 +6061,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 61)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 61)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -7228,7 +7228,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 62)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 62)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -13238,7 +13238,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 46)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 46)
 			}([function(e, t) {
 				e.exports = n("d940")
 			}, function(e, t) {
@@ -38518,7 +38518,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 78)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 78)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -39397,7 +39397,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 93)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 93)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -39702,7 +39702,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 97)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 97)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -43846,7 +43846,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 132)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 132)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -47687,7 +47687,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 104)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 104)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -50835,7 +50835,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 91)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 91)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -51247,7 +51247,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 87)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 87)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -51742,7 +51742,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 54)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 54)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -52141,7 +52141,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 96)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 96)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -52446,7 +52446,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 75)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 75)
 			}({
 				0: function(e, t, n) {
 					"use strict";
@@ -52944,7 +52944,7 @@
 					return n.d(t, "a", t), t
 				}, n.o = function(e, t) {
 					return Object.prototype.hasOwnProperty.call(e, t)
-				}, n.p = "/dist/", n(n.s = 88)
+				}, n.p = "https://cdn.jsdelivr.net/gh/diwakaran1dan/tax@main/dist/", n(n.s = 88)
 			}({
 				0: function(e, t, n) {
 					"use strict";
